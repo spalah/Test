@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.wrapper {
+	width: 774px;
+	margin: 0 auto;
+}
+
+header {
+	background: #ffb300;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+header .nav {
+	float: left;
+	position: absolute;
+	bottom: 45px;
+	left: 19px
+}
+
+header .nav li {
+	margin-top: 15px;
+}
+
+header .nav li a {
+	color: #FFF;
+
+	font-weight: bold;
+	text-decoration: none;
+}
+
+header .bg {
+	background: url(../images/bg.jpg) no-repeat;
+	min-height: 231px;
+	width: 574px;
+	position: relative;
+	float: right;
+}
+
+header .secondary-nav,
+header .mini-cart {
+	position: absolute;
+	bottom: 0;
+}
+
+header .mini-cart {
+	right: 25px;
+}
+
+header .secondary-nav {
+	left: 24px;
+}
+
+header .secondary-nav li {
+	float: left;
+	margin-right: 25px;
+}
+
+header .secondary-nav li a,
+header .mini-cart a {
+	display: inline-block;
+	padding: 8px 10px;
+	background: #ffb300;
+	color: #FFF;
+	text-decoration: none;
+}
+
+header .mini-cart .mini-cart-block {
+	position: absolute;
+	display: none;
+	width: 150px;
+	height: 150px;
+	background: #ffb300;
+}
+
+header .mini-cart .mini-cart-block .nav {
+	position: static;
+}
+
+header .mini-cart:hover .mini-cart-block {
+	display: block;
+}
